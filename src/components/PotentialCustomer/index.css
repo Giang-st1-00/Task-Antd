@@ -1,0 +1,103 @@
+
+/*-------------------------header-------------------------------*/
+.potentialCustomer_header {
+    background-color: white;
+    padding: 20px 20px 16px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 2px;
+  }
+  .potentialCustomer_heading {
+    margin: 0 10px;
+  }
+  
+  .ant-table-tbody .ant-table-cell {
+    padding: 0 !important;
+  }
+  .first-col {
+    padding: 10px;
+    margin-left: 10px;
+  }
+  .first-col.col1 {
+    border-left: 2px solid #80ed99;
+  }
+  .first-col.col2 {
+    border-left: 2px solid #f18701;
+  }
+  .first-col.col3 {
+    border-left: 2px solid #00b4d8;
+  }
+  .first-col.col4 {
+    border-left: 2px solid #f94144;
+  }
+  .first-col.col5 {
+    border-left: 2px solid #7209b7;
+  }
+  .potentialCustomer_content {
+    height: 100%;
+    transition: all 0.5s linear;
+  }
+  .potentialCustomer_content .pagination {
+    padding: 20px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #fff;
+    margin: 1px 0 0;
+  }
+  .pagination .ant-pagination-total-text {
+    color: rgb(150, 150, 150);
+  }
+  .pagination .ant-pagination-item-link {
+    font-size: 20px;
+    color: rgb(150, 150, 150);
+    border-radius: 20%;
+    margin: 0 10px;
+  }
+  li:not(.ant-pagination-disabled) .ant-pagination-item-link:hover {
+    color: #80ed99;
+    box-shadow: 0 0 10px rgb(128, 237, 153, 0.5);
+  }
+  .pagination .ant-pagination-options {
+    display: none;  
+  }
+  .pagination .ant-pagination-item {
+    display: none;
+  }
+  .pagination .ant-pagination-jump-next.ant-pagination-jump-next-custom-icon {
+    display: none;
+  }
+  .pagination .ant-pagination-jump-prev.ant-pagination-jump-prev-custom-icon {
+    display: none;
+  }
+  .checkBox {
+    color: #37b170 !important;
+  }
+  
+
+  /*--------------------------trans_cal_call-----------------------------*/
+
+.ant-dropdown-menu{
+  /* background-color: black; */
+  border-radius: 15px;
+}
+
+/* .pc_menu::after{
+background-color: black;
+} */
+
+
+/* .tb_pt_ct_i:hover {
+  cursor: pointer;
+  color : var(--color-button);
+} */
+
+
+.ant-dropdown-menu-title-content p span {
+  font-size: 20px;
+
+}
+
+
+

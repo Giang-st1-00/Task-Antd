@@ -1,0 +1,16 @@
+.chartContract_wrap {
+  background-color: #fff;
+  padding: 26px;
+  border-radius: 15px;
+}
+.g2-html-annotation:nth-last-child(2) {
+  top: 230px !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  padding: 16px 0;
+}
+.g2-html-annotation:last-child {
+  top: 130px !important;
+  font-size: 45px !important;
+  color: #3dbd78 !important;
+}

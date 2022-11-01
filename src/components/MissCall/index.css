@@ -1,0 +1,36 @@
+.missCall_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 16px 20px;
+  margin-bottom: 2px;
+}
+.missCall_content .ant-spin-nested-loading {
+  height: 365px;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+.missCall_content .ant-list-item {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.missCall_content .ant-list-pagination {
+  padding: 20px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: #fff;
+  margin: 2px 0 0;
+}
+.missCall_content .button {
+  color: #80ed99;
+  border-radius: 10px;
+  font-weight: 600;
+  border: 2px solid #80ed99;
+}
+.missCall_time .ant-list-item-meta-avatar {
+  margin-right: 8px;
+}

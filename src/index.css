@@ -1,0 +1,68 @@
+:root {
+  --color-button: rgb(56 186 116);
+  --color-background: #f0f2f5;
+  --color-error: red;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.App {
+  background-color: #adb5bd;
+}
+.no-select {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+i {
+  color: black;
+}
+p {
+  color: black;
+}
+.color-error {
+  color: var(--color-error) !important;
+}
+/*----------------------scroll--------------------------*/
+::-webkit-scrollbar {
+  /* margin-top: 20px; */
+  width: 10px; /* Chiều rộng vùng chứa scrollbar */
+  /* height: 10px; */
+}
+::-webkit-scrollbar-track {
+  background: white; /* Màu nền ngoài của thanh scrollbar */
+}
+::-webkit-scrollbar-track-piece:start {
+  margin-top: 20px;
+}
+::-webkit-scrollbar-thumb {
+  /* height: 20px; */
+  background-color: rgb(173 173 173); /* Màu của thanh cuộn (scroll thumb) */
+  border-radius: 5px; /* Bo góc scroll thumb */
+  border: 2px solid #ccc; /* Không hỗ trợ padding, margin, transition nên dùng viền cùng màu nên để padding scroll thumb */
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(173 173 173); /* Hiệu ứng di chuột đổi màu*/
+}
+.ant-pagination-item-link {
+  border: none !important;
+}
+li:not(.ant-pagination-disabled) .ant-pagination-item-link:hover {
+  color: #80ed99;
+  box-shadow: 0 0 10px rgb(128, 237, 153, 0.5);
+}

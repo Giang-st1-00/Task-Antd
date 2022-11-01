@@ -1,0 +1,59 @@
+
+.ct_SignedContract{
+    padding : 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+/*---------------header---------------*/
+
+.ct_SignedContract .ct_sc_header{
+    
+}
+
+.ct_SignedContract .ct_sc_header h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*-------------byDate-------------*/
+
+
+.ct_SignedContract .ct_sc_byDate{
+    padding : 0 0 20px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.ct_SignedContract .ct_sc_byDate div:first-child{
+    padding: 0 14px;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-button);
+    border-radius: 14px;
+}
+
+.ct_SignedContract .ct_sc_byDate div{
+    margin : 0 10px;
+}
+
+.ct_SignedContract .ct_sc_byDate h3{
+    margin : 0 ;
+}
+
+.ct_SignedContract .ct_sc_byDate h3 span{
+    color: var(--color-button);
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+

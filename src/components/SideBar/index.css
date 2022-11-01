@@ -1,0 +1,169 @@
+.sb_sideBar_header {
+  background-image: linear-gradient(
+    180deg,
+    white,
+    white,
+    white,
+    rgb(250 250 250)
+  );
+}
+
+.sb_sideBar_header .ant-space-item span {
+  display: none;
+}
+
+.sb_content {
+  /*cho Firefox*/
+  /* height: 10px; */
+  scrollbar-width: thin; /* "auto" hoặc "thin" */
+  scrollbar-color: rgb(173 173 173) #ccc; /* scroll thumb and track */
+}
+
+/*==============================================================*/
+
+/*----------------------sb_header--------------------------*/
+
+.sb_sideBar_header {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: white; */
+  padding: 20px 3%;
+  background-color: white;
+  border-radius: 20px 20px 0 0;
+}
+
+/*---------filter-----------*/
+
+.sb_filter .ant-checkbox-group {
+  display: flex; 
+  flex-direction: column;
+}
+
+.sb_filter .ant-checkbox-group-item {
+  padding: 10px 0;
+}
+
+.sb_filter h3{
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid rgb(173 173 173);
+}
+
+.sb_filter .ant-checkbox-checked .ant-checkbox-inner {
+  color: white;
+  background-color: var(--color-button);
+}
+
+.sb_sideBar_header .cpn_filter{
+  border-radius: 20px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(240 242 245);
+}
+
+.sb_sideBar_header .cpn_filter h3 span{
+  color: white;
+  margin: 0 10px 0 0;
+  padding: 5px 10px;
+  border-radius: 30px;
+  background-color: rgb(246 208 75);
+}
+
+.sb_sideBar_header .ant-slider-track {
+  background-color: var(--color-button);
+}
+
+.sb_sideBar_header .ant-slider:hover .ant-slider-track {
+  background-color: var(--color-button);
+}
+
+/* ----------------------  sb_cal_week --------------------------------------*/
+
+.sb_cal_week {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.sb_cal_week .ant-segmented{
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.sb_cal_week .ant-segmented-item {
+  /* padding: 0 15px; */
+  /* background: #fff; */
+}
+
+.sb_cal_week .ant-segmented-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sb_cal_week .ant-segmented-item-selected {
+  /* padding: 5px 10px; */
+  border-radius: 20px;
+  color: white;
+  background-color: var(--color-button);
+  /* background-color: aqua; */
+}
+
+.sb_cal_week .ant-segmented-thumb {
+  background-color: var(--color-button);
+  border-radius: 20px;
+}
+
+/*--------------------------------- Content ----------------------------------------*/
+
+.sb_content {
+  padding: 10px 3%;
+  overflow-y: scroll;
+}
+
+.sb_content .sb_cal_row{
+  border-radius: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 20px 0;
+}
+
+.sb_intro {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  border-bottom: 2px dotted rgb(173 173 173);
+  padding: 0 20px;
+  width: 100%;
+}
+
+.sb_intro .sb_intro_mid{
+  display: flex; 
+  align-items: center;
+}
+
+.sb_intro i {
+  color: rgb(173 173 173);
+}
+
+.sb_i_company {
+  color: rgb(249 225 143) !important;
+}
+
+.sb_intro_mag {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin: 10px 0;
+}
+
+.sb_intro_mag i {
+  margin: 0 10px 0 0;
+  color: rgb(173 173 173);
+}
+
+.ant-popover-inner {
+  border-radius: 20px;
+}
